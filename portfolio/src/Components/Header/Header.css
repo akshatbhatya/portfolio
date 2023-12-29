@@ -17,6 +17,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+.header-section-one-headding{
+    padding-top: 60px;
+}
 
 .header-section-one-headding h1 {
     color: #FEFEFE;
@@ -106,4 +109,25 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.header-section-one-logo{
+    padding: 50px 0px 0px 0px;
+}
+
+.header-navigation{
+    padding: 50px 0px 0px 0px ;
+}
+
+
+.header-section-two-image{
+    padding-top: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.logo-title{
+    font-family: 'Phudu', sans-serif;
+    font-weight: 600;
 }
