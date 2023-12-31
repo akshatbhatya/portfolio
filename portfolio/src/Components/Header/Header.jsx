@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Header.css"
 
 import { Link, NavLink } from 'react-router-dom'
+import { FaBarsStaggered } from "react-icons/fa6";
+import { GiCrossMark } from "react-icons/gi";
 
 const Header = () => {
+    
+    let [hide,setHide]=useState(true)
+
     return (
         <>
             <div className="header-parent">
@@ -44,12 +49,32 @@ const Header = () => {
                                 <li></li>
                             </ul>
                         </nav>
+                    <div className="headersection-two-navigation-mobile-responsive">
+                    <a href=""><h1 class="logo-title-section-two">Akshat</h1></a>
+                        <nav>
+                        
+                        <button onClick={()=>setHide(!hide)}>{hide?<FaBarsStaggered/>:<GiCrossMark/>} </button>
+
+                        {
+                            hide?<>
+                                 
+                                </>:<>
+                                <ul className='header-navigation-mobile scale-up-center'>
+                                     <li><a href="">Home</a></li>
+                                    <li><a href="about">About</a></li>
+                                    <li><a href="">Project</a></li>
+                                    <li><a href="">Contact</a></li>
+                                    <li></li>
+                                </ul>
+                                </>
+                        }
+                        </nav>
+                    </div>
                         <div className="header-section-two-image">
 
                             <img src="https://picsum.photos/500/500/?blur" alt="" />
                         </div>
                     </div>
-
 
 
                 </div>
@@ -61,3 +86,22 @@ const Header = () => {
 
 
 export default Header
+
+
+// onClick={setHide(!hide?<>
+//     <ul className='header-navigation-mobile'>
+//         <li><a href="">Home</a></li>
+//         <li><a href="about">About</a></li>
+//         <li><a href="">Project</a></li>
+//         <li><a href="">Contact</a></li>
+//         <li></li>
+//     </ul>
+//     </>:null)}onClick={setHide(!hide?<>
+//                             <ul className='header-navigation-mobile'>
+//                                 <li><a href="">Home</a></li>
+//                                 <li><a href="about">About</a></li>
+//                                 <li><a href="">Project</a></li>
+//                                 <li><a href="">Contact</a></li>
+//                                 <li></li>
+//                             </ul>
+//                             </>:null)}
