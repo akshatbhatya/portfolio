@@ -1,0 +1,21 @@
+.skills-parentContainer {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(147deg, #1E1F1D 1.46%, #1A1C18 99.06%);
+}
+
+.skills-circle-one {
+    width: 872px;
+    height: 872px;
+    flex-shrink: 0;
+    border-radius: 872px;
+    border: 1px solid #FFF;
+}
+
+.skills-circle-two {
+    width: 678px;
+    height: 678px;
+    flex-shrink: 0;
+    border-radius: 678px;
+    border: 1px solid #FFF;
+}

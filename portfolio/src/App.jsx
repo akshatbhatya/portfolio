@@ -1,7 +1,8 @@
 import { useEffect } from 'react'
 import './App.css'
 import { Header } from "./Components/Index"
-import { Outlet } from "react-router-dom"
+import Skills from './Container/Skills/Skills';
+import Devider from './Components/Devider/Devider';
 
 function App() {
  
@@ -21,6 +22,9 @@ function App() {
     
     <>
       <Header />
+      <Devider/>
+      <Skills/>
+      <Devider/>
     </>
   )
 }

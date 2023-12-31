@@ -1,0 +1,34 @@
+.bar {
+
+    background: #4b6cb7;
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
+    background: linear-gradient(to right, #182848, #4b6cb7);
+    padding: 3px;
+    width: 7%;
+    outline: none;
+    border: none;
+}
+.title-bar-section{
+    padding-top: 100px ;
+
+}
+.title-title-of-component {
+    padding-top: 25px;
+}
+
+.title-title-of-component h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+.title-parent-section{
+    margin: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
