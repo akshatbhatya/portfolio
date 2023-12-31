@@ -88,20 +88,3 @@ const Header = () => {
 export default Header
 
 
-// onClick={setHide(!hide?<>
-//     <ul className='header-navigation-mobile'>
-//         <li><a href="">Home</a></li>
-//         <li><a href="about">About</a></li>
-//         <li><a href="">Project</a></li>
-//         <li><a href="">Contact</a></li>
-//         <li></li>
-//     </ul>
-//     </>:null)}onClick={setHide(!hide?<>
-//                             <ul className='header-navigation-mobile'>
-//                                 <li><a href="">Home</a></li>
-//                                 <li><a href="about">About</a></li>
-//                                 <li><a href="">Project</a></li>
-//                                 <li><a href="">Contact</a></li>
-//                                 <li></li>
-//                             </ul>
-//                             </>:null)}
