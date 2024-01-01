@@ -232,7 +232,7 @@
         margin-bottom: 30px;
         color: #fff;
         font-family: poppins;
-        width: 320px;
+        width: 270px;
     }
     .card-body .card-title {
         font-size: 20px;
@@ -241,5 +241,109 @@
         margin-bottom: 20px;
         color: #fff;
         font-family: poppins;
+    }
+}
+
+@media screen and (max-width:901px){
+
+    .card-body .card-text {
+        font-size: 16px;
+        line-height: 1.8;
+        text-align: center;
+        margin-bottom: 30px;
+        color: #fff;
+        font-family: poppins;
+        width: 255px;
+    }
+}
+
+@media screen and (max-width:901px){
+
+    .card-body .card-text {
+        font-size: 16px;
+        line-height: 1.8;
+        text-align: center;
+        margin-bottom: 30px;
+        color: #fff;
+        font-family: poppins;
+        width: 255px;
+    }
+}
+
+@media screen and (max-width:875px){
+
+    .card-body .card-text {
+        font-size: 16px;
+        line-height: 1.8;
+        text-align: center;
+        margin-bottom: 30px;
+        color: #fff;
+        font-family: poppins;
+        width: 220px;
+    }
+}
+
+
+@media screen and (max-width:778px){
+
+    .card-body .card-text {
+        font-size: 16px;
+        line-height: 1.8;
+        text-align: center;
+        margin-bottom: 30px;
+        color: #fff;
+        font-family: poppins;
+        width: auto;
+    }
+}
+@media screen and (max-width:585px){
+
+    .project-container-parent {
+        background: linear-gradient(147deg, #1E1F1D 1.46%, #1A1C18 99.06%);
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 335px) {
+
+    .card img {
+        width: 67%;
+        height: 210px;
+    }
+}
+
+
+@media screen and (max-width: 335px) {
+
+    
+    .card-body .btn {
+        padding: 05px 10px;
+        border-radius: 50px;
+        background: #FEFEFE;
+        color: #010101;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        cursor: pointer;
+        outline: none;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 307px) {
+
+    
+    .card img {
+        width: 67%;
+        height: 170px;
+    }
+    .card {
+        background-color: #00000075;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+        padding-top: 148px;
     }
 }
