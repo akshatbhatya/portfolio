@@ -1,0 +1,126 @@
+.contact-container {
+    display: flex;
+    gap: 50px;
+
+    max-width: 1200px;
+    margin: 0px auto;
+
+}
+
+.contactparent {
+    height: auto;
+    width: 100%;
+    background: linear-gradient(147deg, #1E1F1D 1.46%, #1A1C18 99.06%);
+    padding: 0px 100px;
+
+}
+
+.contact-socialmedialinks span p {
+    color: #CFCFCF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contact-socialmedialinks span p a {
+    color: white;
+    width: auto;
+}
+
+.contact-social-link-section-two span p {
+    color: #CFCFCF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: auto;
+
+}
+
+.contact-social-link-section-two a {
+    color: white;
+}
+
+.contact-download-button button {
+    padding: 10px 15px;
+    border-radius: 50px;
+    background: #FEFEFE;
+    color: #010101;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.contact-copiright p {
+    text-align: center;
+    font-size: 18px;
+    font-family: poppins;
+    background: linear-gradient(147deg, #1E1F1D 1.46%, #1A1C18 99.06%);
+    color: white;
+    font-weight: 500;
+    padding: 20px 0px;
+
+
+}
+
+.photo p {
+    color: white;
+    font-family: poppins;
+    width: auto;
+
+
+
+
+}
+
+
+@media screen and (max-width:861px) {
+    .contactparent {
+        padding: 0px 20px;
+    }
+
+    .contact-socialmedialinks {
+        width: 50%;
+
+    }
+
+    .contact-social-link-section-two {
+        width: 50%;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width:593px) {
+    .contact-container {
+        display: flex;
+        gap: 50px;
+        max-width: 1200px;
+        margin: 0px auto;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .contact-socialmedialinks {
+        width: auto;
+
+    }
+
+    .contact-social-link-section-two {
+        width: auto;
+    }
+
+}

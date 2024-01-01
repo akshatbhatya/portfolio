@@ -6,6 +6,7 @@ import Devider from './Components/Devider/Devider';
 import Project from './Container/Projects/Project';
 import ProjectContainer from './Container/Project-Container/ProjectContainer';
 import { ProjectData } from './Container/Projects/ProjectData';
+import Contact from './Container/Contact/Contact';
 
 function App() {
 
@@ -29,6 +30,8 @@ function App() {
       <Skills />
       <Devider />
       <ProjectContainer ProjectData={ProjectData}  />
+      <Devider/>
+      <Contact/>
     </>
   )
 }
