@@ -3,6 +3,9 @@ import './App.css'
 import { Header } from "./Components/Index"
 import Skills from './Container/Skills/Skills';
 import Devider from './Components/Devider/Devider';
+import Project from './Container/Projects/Project';
+import ProjectContainer from './Container/Project-Container/ProjectContainer';
+import { ProjectData } from './Container/Projects/ProjectData';
 
 function App() {
 
@@ -25,6 +28,7 @@ function App() {
       <Devider />
       <Skills />
       <Devider />
+      <ProjectContainer ProjectData={ProjectData}  />
     </>
   )
 }
