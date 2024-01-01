@@ -33,32 +33,37 @@ function Skills() {
     return (
 
         <>
-        <div className="skills-container">
-            <div className="skills-container-one">
+            <div className="skills-container">
+                <div className="skills-container-one">
 
-                <Title title={"My Skills"} />
+                    <Title title={"My Skills"} />
 
-                <br />
+                    <br />
 
-                {
-                            data.map((data) => {
-                                return <SkillsBox title={data.title} para={data.para} image={data.image} key={data.title} />
-                            })
-                        }
+                    {
+                        data.map((data) => {
+                            return <SkillsBox title={data.title} para={data.para} image={data.image} key={data.title} />
+                        })
+                    }
 
 
 
+                </div>
+                <div className="skills-container-two">
+
+                    <Title title={"Coding Skills"} />
+
+                    <div className="progressofallsubject">
+
+
+                        <ProgressBar progress={100} skill={"HTML"} />
+                        <ProgressBar progress={80} skill={"CSS"} />
+                        <ProgressBar progress={75} skill={"JAVASCRIPT"} />
+                        <ProgressBar progress={85} skill={"WORDPRESS"} />
+                        <ProgressBar progress={40} skill={"PYTHON"} />
+                    </div>
+                </div>
             </div>
-            <div className="skills-container-two">
-                
-                <Title title={"Coding Skills"} />
-
-                <ProgressBar/>
-
-                
-
-            </div>
-        </div>
         </>
     )
 }

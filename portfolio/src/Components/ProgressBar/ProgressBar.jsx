@@ -22,7 +22,7 @@ function ProgressBar({ progress = 10, skill='html' }) {
         <div>
             <br />
             <div className="title">
-                <h2>{skill}</h2>
+                <h4>{skill}</h4>
             </div>
             <div className="progressbar-parent" style={progressBarParent}>
                 <div className="progressbar-child" style={progressbarChild}>
