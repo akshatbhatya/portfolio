@@ -1,10 +1,17 @@
-.skills-parentContainer {
+.skills-container {
     height: auto;
     width: 100%;
     background: linear-gradient(147deg, #1E1F1D 1.46%, #1A1C18 99.06%);
     padding: 0px 100px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.skills-section-one{
-    padding: 0px 50px;
+
+.skills-container-one{
+    width: 50%;   
+}
+
+.skills-container-two{
+    width: 50%;
 }

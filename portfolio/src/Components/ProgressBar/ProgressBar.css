@@ -1,0 +1,13 @@
+.title h2{
+    font-family: poppins;
+    margin:0rem 1rem;
+    color: white;
+}
+
+.text{
+    color: black;
+    font-weight: 600;
+    text-align: right;
+    padding: 0px 6px 
+    
+}

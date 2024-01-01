@@ -1,8 +1,7 @@
 .skills-box-parent {
     margin: 50px 0px;
     display: flex;
-    grid-template-columns: 147px 1fr;
-    width: fit-content;
+    width: auto;
     flex-wrap: wrap;
     gap: 30px;
 }
@@ -10,27 +9,29 @@
 .skillbox-title h2 {
     color: white;
     font-family: poppins;
-    
+
 }
 
-.skillbox-para p{
+.skillbox-para p {
     color: #CFCFCF;
     font-family: Poppins;
     font-size: 16px;
     line-height: 120%;
 }
-.skills-box-image{
+
+.skills-box-image {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
 }
-.skills-box-image img{
+
+.skills-box-image img {
     width: 90px;
-    
+
 }
 
-.skills-box-content{
-    width: 30%;
+.skills-box-content {
+    width: 50%;
 }

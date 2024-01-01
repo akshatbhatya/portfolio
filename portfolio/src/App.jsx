@@ -25,7 +25,6 @@ function App() {
       <Devider/>
       <Skills/>
       <Devider/>
-      <Skills/>
     </>
   )
 }
