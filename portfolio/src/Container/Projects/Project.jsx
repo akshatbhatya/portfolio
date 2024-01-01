@@ -6,7 +6,7 @@ import Title from '../../Components/Title/Title';
 function Project({data}) {
     return (
 
-        <div className='project-parent'>
+        <div className='project-parent' id='project'>
            
 
            { data.map((data)=>{

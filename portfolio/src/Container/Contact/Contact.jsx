@@ -24,7 +24,7 @@ function Contact() {
                 <br />
                 <br />
                 <br />
-                <div className="contact-container">
+                <div className="contact-container" id='contact'>
 
                     <div className="contact-socialmedialinks">
 
@@ -45,9 +45,9 @@ function Contact() {
                     </div>
 
 
-                    <contact className="photo">
+                    <div className="photo">
                         <p>Ready to elevate your projects with a blend of innovation, creativity, and expertise. Let's turn ideas into exceptional realities together. Hire me for a journey beyond the ordinary.</p>
-                    </contact>
+                    </div>
 
 
                 </div>

@@ -11,14 +11,14 @@ const Header = () => {
 
     return (
         <>
-            <div className="header-parent">
+            <div className="header-parent" >
 
                 <div className="header-section-one">
                     <div className="header-section-one-logo">
                         <a href=""><h1 className='logo-title'>Akshat</h1></a>
 
                     </div>
-                    <div className="header-section-one-headding">
+                    <div className="header-section-one-headding" id='home'>
                         <h1>Be Creative,<br />
                             Be Impressive</h1>
                         <br />
@@ -42,10 +42,10 @@ const Header = () => {
 
                         <nav>
                             <ul className='header-navigation'>
-                                <li><a href="">Home</a></li>
-                                <li><a href="about">About</a></li>
-                                <li><a href="">Project</a></li>
-                                <li><a href="">Contact</a></li>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#project">Project</a></li>
+                                <li><a href="#contact">Contact</a></li>
                                 <li></li>
                             </ul>
                         </nav>
@@ -60,10 +60,10 @@ const Header = () => {
                                  
                                 </>:<>
                                 <ul className='header-navigation-mobile scale-up-center'>
-                                     <li><a href="">Home</a></li>
-                                    <li><a href="about">About</a></li>
-                                    <li><a href="">Project</a></li>
-                                    <li><a href="">Contact</a></li>
+                                     <li><a href="#home">Home</a></li>
+                                    <li><a href="#skills">Skills</a></li>
+                                    <li><a href="#project">Project</a></li>
+                                    <li><a href="#contact">Contact</a></li>
                                     <li></li>
                                 </ul>
                                 </>

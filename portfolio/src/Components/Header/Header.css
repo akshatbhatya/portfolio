@@ -128,9 +128,12 @@ a {
     align-items: center;
 }
 
+
+
 .logo-title {
     font-family: 'Phudu', sans-serif;
     font-weight: 600;
+    color:#4b6cb7;
 }
 
 @media screen and (max-width: 1395px) {

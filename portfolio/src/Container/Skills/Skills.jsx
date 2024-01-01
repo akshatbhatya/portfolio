@@ -34,7 +34,7 @@ function Skills() {
 
         <>
             <div className="skills-container">
-                <div className="skills-container-one">
+                <div className="skills-container-one " id='skills'>
 
                     <Title title={"My Skills"} />
 
