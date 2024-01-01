@@ -51,7 +51,7 @@ function Skills() {
                 </div>
                 <div className="skills-container-two">
 
-                    <Title title={"Coding Skills"} />
+                    {/* <Title title={"Coding Skills"} /> */}
 
                     <div className="progressofallsubject">
 
