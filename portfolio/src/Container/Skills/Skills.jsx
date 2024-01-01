@@ -69,28 +69,3 @@ function Skills() {
 }
 
 export default Skills;
-
-
-
-{/* <div className="skills-parentContainer">
-                <div className="skills-all-skills">
-                    <div className="skills-section-one">
-                        <div className="skills-title">
-                            <Title title={"My Skills"} />
-
-                        </div>
-                        {/* {
-                            data.map((data) => {
-                                return <SkillsBox title={data.title} para={data.para} image={data.image} key={data.title} />
-                            })
-                        } */}
-
-
-
-//         </div>
-
-//     </div>
-//     <div className="skills-section-two">
-//         <Title title={"Coding Skills"} />
-//     </div>
-// </div>
