@@ -27,7 +27,7 @@
 }
 
 .title-parent-section{
-    margin: 0px 100px;
+    margin: 0px 0px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
