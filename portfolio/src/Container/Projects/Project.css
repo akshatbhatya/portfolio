@@ -330,6 +330,10 @@
         outline: none;
         border: none;
     }
+    .project-container-parent {
+        background: linear-gradient(147deg, #1E1F1D 1.46%, #1A1C18 99.06%);
+        padding: 0px 20px;
+    }
 }
 
 @media screen and (max-width: 307px) {
