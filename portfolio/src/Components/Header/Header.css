@@ -106,7 +106,7 @@ a {
 .header-navigation a {
     color: #FEFEFE;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -196,6 +196,17 @@ a {
 
 }
 
+@media screen and (max-width:966px) {
+
+    .header-navigation a {
+        color: #FEFEFE;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
 
 @media screen and (max-width:966px) {
 

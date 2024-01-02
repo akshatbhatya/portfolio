@@ -1,13 +1,27 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Header.css"
 
 import { Link, NavLink } from 'react-router-dom'
 import { FaBarsStaggered } from "react-icons/fa6";
 import { GiCrossMark } from "react-icons/gi";
 
+import Photo from './images/akshat-image.jpg'
+import WebLogo from './images/weblogopng.png'
 const Header = () => {
     
     let [hide,setHide]=useState(true)
+
+    const photoStyle={
+        boxShadow: "15px 15px 0px #9a9999",
+    }
+
+    const scrollToProject = () => {
+        const projectSection = document.getElementById('project');
+    
+        if (projectSection) {
+          projectSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
 
     return (
         <>
@@ -15,22 +29,22 @@ const Header = () => {
 
                 <div className="header-section-one">
                     <div className="header-section-one-logo">
-                        <a href=""><h1 className='logo-title'>Akshat</h1></a>
+                        <a href="" id='home'><h1 className='logo-title'>Akshat</h1></a>
 
                     </div>
                     <div className="header-section-one-headding" id='home'>
-                        <h1>Be Creative,<br />
-                            Be Impressive</h1>
+                        <h1>Elevate with<br />
+                        Code Mastery</h1>
                         <br />
-                        <p>Creative Designer and Social Media Officer</p>
+                        <p>Tech Alchemist and Digital Strategist</p>
                     </div>
                     <div className="header-section-one-paragraph">
 
-                        <p>I have to be able to communicate ideas to a wide range of stakeholders in both my own voice and in Sprout's. Communicating on social.</p>
+                        <p>As a versatile front-end developer, I fuse HTML, CSS, and JavaScript to craft seamless digital experiences. Proficient in WordPress, Python, and React, I blend creativity with code mastery to deliver innovative solutions</p>
 
                         <div className="header-section-one-buttons">
-                            <button className='btn-1'>Portfolio</button>
-                            <a href='' className='btn-2'>Download Curriculum Vitae</a>
+                            <button onClick={scrollToProject} className='btn-1'>View Projects</button>
+                            <a href='https://drive.google.com/uc?export=download&id=1KDe7zPVx8HMSSxktCMYeio6pOEsAi9ZY' className='btn-2'>Download Curriculum Vitae</a>
                         </div>
                     </div>
 
@@ -72,7 +86,7 @@ const Header = () => {
                     </div>
                         <div className="header-section-two-image">
 
-                            <img src="https://picsum.photos/500/500/?blur" alt="" />
+                            <img src={Photo} alt="akshat" width={580}  height={560}style={photoStyle} />
                         </div>
                     </div>
 
