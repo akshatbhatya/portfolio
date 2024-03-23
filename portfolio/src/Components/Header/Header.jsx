@@ -9,7 +9,7 @@ import Photo from './images/akshat-image.jpg'
 import WebLogo from './images/weblogopng.png'
 const Header = () => {
     
-    let [hide,setHide]=useState(true)
+    const [hide,setHide]=useState(true);
 
     const photoStyle={
         boxShadow: "15px 15px 0px #9a9999",
@@ -64,7 +64,7 @@ const Header = () => {
                             </ul>
                         </nav>
                     <div className="headersection-two-navigation-mobile-responsive">
-                    <a href=""><h1 class="logo-title-section-two">Akshat</h1></a>
+                    <a href=""><h1 className="logo-title-section-two">Akshat</h1></a>
                         <nav>
                         
                         <button onClick={()=>setHide(!hide)}>{hide?<FaBarsStaggered/>:<GiCrossMark/>} </button>

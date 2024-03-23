@@ -7,6 +7,7 @@ import Project from './Container/Projects/Project';
 import ProjectContainer from './Container/Project-Container/ProjectContainer';
 import { ProjectData } from './Container/Projects/ProjectData';
 import Contact from './Container/Contact/Contact';
+import Contactform from './Container/Contact form/Contact form';
 
 function App() {
 
@@ -31,7 +32,11 @@ function App() {
       <Devider />
       <ProjectContainer ProjectData={ProjectData}  />
       <Devider/>
+      <Contactform/>
+      <Devider/>
       <Contact/>
+     
+      
     </>
   )
 }
